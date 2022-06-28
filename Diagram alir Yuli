@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T04:42:34.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="16.6.4" etag="l4a2JeOjeSMQvXs8e16X" type="github"><diagram id="3s-I98gJIp2awCIpI-Hr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-28T09:19:14.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8G-kAZ8l5fYU0YHC3D6T" version="16.6.4" type="github">
+  <diagram id="3s-I98gJIp2awCIpI-Hr" name="Page-1">
+    <mxGraphModel dx="1447" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-1" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="330" as="sourcePoint" />
+            <mxPoint x="414" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-3" value="Studi Literatur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="100" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-4" value="1. Buku&lt;br&gt;2. Jurnal&lt;br&gt;3.Paper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-4" target="Tnl5twrdehCXn32Qpk-Q-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="210" as="sourcePoint" />
+            <mxPoint x="570" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="sourcePoint" />
+            <mxPoint x="414" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-7" value="Pengumpulan Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="160" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-8" value="Pengukuran Noise di kamar mesin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="220" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-9" value="Sesuai standar BKI dan IMO" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="280" width="232" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-7" target="Tnl5twrdehCXn32Qpk-Q-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-8" target="Tnl5twrdehCXn32Qpk-Q-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="sourcePoint" />
+            <mxPoint x="530" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="310" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-15" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="430" as="sourcePoint" />
+            <mxPoint x="414" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-17" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-18" value="Desain Pengembangan Muffler&lt;br&gt;dan Barrier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="360" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="sourcePoint" />
+            <mxPoint x="414" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-20" value="Simulasi CFD Muffler dan Barrier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="420" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-21" value="Perhitungan Pemilihan Barrier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="480" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-20" target="Tnl5twrdehCXn32Qpk-Q-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="530" as="sourcePoint" />
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-23" value="1.Data Utama Kapal&lt;br&gt;2.General Arrangement&lt;br&gt;3.Spesifikasi M/E&lt;br&gt;4.Spesifikasi A/E" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-24" value="Validasi Hasil Muffler dan Barrier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="540" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-21" target="Tnl5twrdehCXn32Qpk-Q-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="640" as="sourcePoint" />
+            <mxPoint x="430" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-27" value="Analisa dan Pembahasan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="600" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-24" target="Tnl5twrdehCXn32Qpk-Q-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="640" as="sourcePoint" />
+            <mxPoint x="430" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-23" target="Tnl5twrdehCXn32Qpk-Q-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-30" value="Kesimpulan dan Saran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="660" width="232" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-27" target="Tnl5twrdehCXn32Qpk-Q-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="450" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-32" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tnl5twrdehCXn32Qpk-Q-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tnl5twrdehCXn32Qpk-Q-30" target="Tnl5twrdehCXn32Qpk-Q-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="830" as="sourcePoint" />
+            <mxPoint x="390" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

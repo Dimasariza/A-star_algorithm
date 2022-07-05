@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T12:42:42.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I6CeAD4rq87sJxbALZQg" version="20.0.3" type="github">
-  <diagram id="A7VamFoS1lBk5lCrtV3n" name="Page-1">
-    <mxGraphModel dx="1085" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-07-05T13:02:38.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="s0HJjioP-XYtBYfn578m" version="20.0.3" type="github" pages="4">
+  <diagram id="A7VamFoS1lBk5lCrtV3n" name="Get Data">
+    <mxGraphModel dx="914" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,9 +15,6 @@
         </mxCell>
         <mxCell id="cLyXGViR5zemQQma-sB3-2" value="Get all data from &quot;Route&quot; sheet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="268" y="100" width="292" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="cLyXGViR5zemQQma-sB3-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cLyXGViR5zemQQma-sB3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-5" target="cLyXGViR5zemQQma-sB3-12">
           <mxGeometry relative="1" as="geometry" />
@@ -46,32 +43,245 @@
         <mxCell id="cLyXGViR5zemQQma-sB3-17" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="330" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cLyXGViR5zemQQma-sB3-20" value="calculate the total number of barges needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="338" y="440" width="152" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="cLyXGViR5zemQQma-sB3-21" value="calculate the total number of ships mixing with barges needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="152" height="50" as="geometry" />
+          <mxGeometry x="520" y="510" width="152" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cLyXGViR5zemQQma-sB3-22" value="calculate the total number of ships needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="440" width="152" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="cLyXGViR5zemQQma-sB3-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-12" target="cLyXGViR5zemQQma-sB3-22">
+        <mxCell id="cLyXGViR5zemQQma-sB3-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-12" target="5bEUOS2EwZOhsE_ABW5v-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="640" as="sourcePoint" />
-            <mxPoint x="470" y="590" as="targetPoint" />
+            <mxPoint x="240" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cLyXGViR5zemQQma-sB3-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-12" target="cLyXGViR5zemQQma-sB3-20">
+        <mxCell id="cLyXGViR5zemQQma-sB3-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="640" as="sourcePoint" />
-            <mxPoint x="470" y="590" as="targetPoint" />
+            <mxPoint x="414" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cLyXGViR5zemQQma-sB3-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-12" target="cLyXGViR5zemQQma-sB3-21">
+        <mxCell id="cLyXGViR5zemQQma-sB3-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLyXGViR5zemQQma-sB3-12" target="5bEUOS2EwZOhsE_ABW5v-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="640" as="sourcePoint" />
-            <mxPoint x="470" y="590" as="targetPoint" />
+            <mxPoint x="600" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5bEUOS2EwZOhsE_ABW5v-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5bEUOS2EwZOhsE_ABW5v-2" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5bEUOS2EwZOhsE_ABW5v-3" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-uB10WTyqDJc3kJ6hRJY" name="Get Total Ships">
+    <mxGraphModel dx="1021" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JapbuAbM0lkEha4y0nE4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d7dowDw4OYJLhpSR_Cfu-1" target="JapbuAbM0lkEha4y0nE4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d7dowDw4OYJLhpSR_Cfu-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JapbuAbM0lkEha4y0nE4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JapbuAbM0lkEha4y0nE4-1" target="JapbuAbM0lkEha4y0nE4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JapbuAbM0lkEha4y0nE4-1" value="calculate the total number of ships needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="120" width="152" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JapbuAbM0lkEha4y0nE4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JapbuAbM0lkEha4y0nE4-4" target="pA9tyVXR48hv40naY_1X-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JapbuAbM0lkEha4y0nE4-4" value="Get the diffrerence between leftover demand and demands being transported" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="200" width="152" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pA9tyVXR48hv40naY_1X-1" target="pA9tyVXR48hv40naY_1X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pA9tyVXR48hv40naY_1X-1" target="pA9tyVXR48hv40naY_1X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pA9tyVXR48hv40naY_1X-1" target="pA9tyVXR48hv40naY_1X-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-1" value="Difference &lt;br&gt;&amp;lt; 10000 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pA9tyVXR48hv40naY_1X-2" target="pA9tyVXR48hv40naY_1X-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-2" value="Difference &lt;br&gt;&amp;gt;1000 &amp;amp; &lt;br&gt;&amp;lt;30000 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pA9tyVXR48hv40naY_1X-3" target="pA9tyVXR48hv40naY_1X-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-3" value="Difference &lt;br&gt;&amp;gt;30000 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-8" value="Add ship 7000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-10" value="Add ship 14000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-12" value="Add ship 33000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-14" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-15" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pA9tyVXR48hv40naY_1X-16" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="474" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qTnFoQzQbggAM_okrMJ7" name="Get Total Barges">
+    <mxGraphModel dx="1021" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-2" target="i-iXkh_73enQ5Pg69w7t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-2" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-4" target="i-iXkh_73enQ5Pg69w7t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-4" value="calculate the total number of barges needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="120" width="152" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-6" target="i-iXkh_73enQ5Pg69w7t-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-6" value="Get the diffrerence between leftover demand and demands being transported" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="200" width="152" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-10" target="i-iXkh_73enQ5Pg69w7t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-10" target="i-iXkh_73enQ5Pg69w7t-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-10" target="i-iXkh_73enQ5Pg69w7t-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-10" value="Difference &lt;br&gt;&amp;lt; 5600 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-12" target="i-iXkh_73enQ5Pg69w7t-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-12" value="Difference &lt;br&gt;&amp;gt;5600 &amp;amp; &lt;br&gt;&amp;lt;7800 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-iXkh_73enQ5Pg69w7t-14" target="i-iXkh_73enQ5Pg69w7t-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-14" value="Difference &lt;br&gt;&amp;gt;7800 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-15" value="Add ship 5000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-16" value="Add ship 8000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-17" value="Add main barge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-18" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-19" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i-iXkh_73enQ5Pg69w7t-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="474" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_1M5RwD8_me9ZhvWKCJW" name="Mix Between Ships and Barges">
+    <mxGraphModel dx="1240" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YMqH44-7cvqw283cIRKp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-2" target="YMqH44-7cvqw283cIRKp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-2" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-4" target="YMqH44-7cvqw283cIRKp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-4" value="calculate the total number of ships and barges&lt;br&gt;needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="120" width="152" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-6" target="YMqH44-7cvqw283cIRKp-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-6" value="Get the diffrerence between leftover demand and demands being transported" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="200" width="152" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-10" target="YMqH44-7cvqw283cIRKp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-10" target="YMqH44-7cvqw283cIRKp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-10" target="YMqH44-7cvqw283cIRKp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-10" value="Difference &lt;br&gt;&amp;lt; 5600 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-12" target="YMqH44-7cvqw283cIRKp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-12" value="Difference &lt;br&gt;&amp;gt;5600 &amp;amp; &lt;br&gt;&amp;lt;7800 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMqH44-7cvqw283cIRKp-14" target="YMqH44-7cvqw283cIRKp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-14" value="Difference &lt;br&gt;&amp;gt;7800 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-15" value="Add ship 5000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-16" value="Add ship 8000 dwt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-17" value="Add main barge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="430" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-18" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-19" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMqH44-7cvqw283cIRKp-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="474" y="310" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
